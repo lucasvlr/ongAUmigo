@@ -1,0 +1,115 @@
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+.nav-link {
+  color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: hsla(163, 45%, 51%, 0.914);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8a2e2e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.imagem-fundo {
+    background-image: url('assets/ossinho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: hsla(50, 68%, 55%, 0.956);
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: oklch(61.313% 0.20472 35.397 / 0.929);
+  border-radius: 5px;
+}
+
+.preto {
+  color: black;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: hsla(50, 68%, 55%, 0.956);
+}
+
+.bg-body-tertiary {
+  background-color: oklab(83.474% -0.06142 -0.03648 / 0.91) !important;
+}
+
+.bg-body-2 {
+  background-color: oklab(83.474% -0.06142 -0.03648 / 0.91) !important;
+}
+
+.bg-body-1 {
+  background-color: oklab(83.474% -0.06142 -0.03648 / 0.91) !important;
+}
+
+.bg-body-4 {
+  background-color: rgba(242, 129, 23, 0.872) !important;
+}
+
+.bg-body-3 {
+  background-color: #f9e3a4 !important;
+}
+
+
+.text-bg-dark {
+    background-color: oklch(20.919% 0.00611 196.911 / 0.91) !important;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
