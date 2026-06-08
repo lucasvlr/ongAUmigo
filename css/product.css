@@ -31,7 +31,7 @@
 }
 
 .imagem-fundo {
-    background-image: url('assets/ossinho.jpg');
+    background-image: url('../imagens/fundos/ossinho.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
