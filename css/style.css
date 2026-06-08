@@ -123,3 +123,7 @@ body {
         .textodash{
             color:black;
         }
+
+    .fundoclaro {
+        background-color:var(--corsecundaria);
+    }
